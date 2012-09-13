@@ -1,0 +1,300 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5046482216027A1A002D013E /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5046482116027A1A002D013E /* Cocoa.framework */; };
+		5046482C16027A1A002D013E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5046482A16027A1A002D013E /* InfoPlist.strings */; };
+		5046482E16027A1A002D013E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5046482D16027A1A002D013E /* main.m */; };
+		5046483216027A1A002D013E /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 5046483016027A1A002D013E /* Credits.rtf */; };
+		5046483516027A1A002D013E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5046483416027A1A002D013E /* AppDelegate.m */; };
+		5046483816027A1B002D013E /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5046483616027A1B002D013E /* MainMenu.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		5046481D16027A1A002D013E /* ShowIP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShowIP.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5046482116027A1A002D013E /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		5046482416027A1A002D013E /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		5046482516027A1A002D013E /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		5046482616027A1A002D013E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		5046482916027A1A002D013E /* ShowIP-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ShowIP-Info.plist"; sourceTree = "<group>"; };
+		5046482B16027A1A002D013E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5046482D16027A1A002D013E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5046482F16027A1A002D013E /* ShowIP-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ShowIP-Prefix.pch"; sourceTree = "<group>"; };
+		5046483116027A1A002D013E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		5046483316027A1A002D013E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5046483416027A1A002D013E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5046483716027A1B002D013E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5046481A16027A1A002D013E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5046482216027A1A002D013E /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5046481216027A1A002D013E = {
+			isa = PBXGroup;
+			children = (
+				5046482716027A1A002D013E /* ShowIP */,
+				5046482016027A1A002D013E /* Frameworks */,
+				5046481E16027A1A002D013E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5046481E16027A1A002D013E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5046481D16027A1A002D013E /* ShowIP.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5046482016027A1A002D013E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5046482116027A1A002D013E /* Cocoa.framework */,
+				5046482316027A1A002D013E /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5046482316027A1A002D013E /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5046482416027A1A002D013E /* AppKit.framework */,
+				5046482516027A1A002D013E /* CoreData.framework */,
+				5046482616027A1A002D013E /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		5046482716027A1A002D013E /* ShowIP */ = {
+			isa = PBXGroup;
+			children = (
+				5046483316027A1A002D013E /* AppDelegate.h */,
+				5046483416027A1A002D013E /* AppDelegate.m */,
+				5046483616027A1B002D013E /* MainMenu.xib */,
+				5046482816027A1A002D013E /* Supporting Files */,
+			);
+			path = ShowIP;
+			sourceTree = "<group>";
+		};
+		5046482816027A1A002D013E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5046482916027A1A002D013E /* ShowIP-Info.plist */,
+				5046482A16027A1A002D013E /* InfoPlist.strings */,
+				5046482D16027A1A002D013E /* main.m */,
+				5046482F16027A1A002D013E /* ShowIP-Prefix.pch */,
+				5046483016027A1A002D013E /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5046481C16027A1A002D013E /* ShowIP */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5046483B16027A1B002D013E /* Build configuration list for PBXNativeTarget "ShowIP" */;
+			buildPhases = (
+				5046481916027A1A002D013E /* Sources */,
+				5046481A16027A1A002D013E /* Frameworks */,
+				5046481B16027A1A002D013E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ShowIP;
+			productName = ShowIP;
+			productReference = 5046481D16027A1A002D013E /* ShowIP.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5046481416027A1A002D013E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = "Markus Soelter";
+			};
+			buildConfigurationList = 5046481716027A1A002D013E /* Build configuration list for PBXProject "ShowIP" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 5046481216027A1A002D013E;
+			productRefGroup = 5046481E16027A1A002D013E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5046481C16027A1A002D013E /* ShowIP */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5046481B16027A1A002D013E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5046482C16027A1A002D013E /* InfoPlist.strings in Resources */,
+				5046483216027A1A002D013E /* Credits.rtf in Resources */,
+				5046483816027A1B002D013E /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5046481916027A1A002D013E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5046482E16027A1A002D013E /* main.m in Sources */,
+				5046483516027A1A002D013E /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		5046482A16027A1A002D013E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5046482B16027A1A002D013E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		5046483016027A1A002D013E /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5046483116027A1A002D013E /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		5046483616027A1B002D013E /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5046483716027A1B002D013E /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5046483916027A1B002D013E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		5046483A16027A1B002D013E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		5046483C16027A1B002D013E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ShowIP/ShowIP-Prefix.pch";
+				INFOPLIST_FILE = "ShowIP/ShowIP-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		5046483D16027A1B002D013E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ShowIP/ShowIP-Prefix.pch";
+				INFOPLIST_FILE = "ShowIP/ShowIP-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5046481716027A1A002D013E /* Build configuration list for PBXProject "ShowIP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5046483916027A1B002D013E /* Debug */,
+				5046483A16027A1B002D013E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5046483B16027A1B002D013E /* Build configuration list for PBXNativeTarget "ShowIP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5046483C16027A1B002D013E /* Debug */,
+				5046483D16027A1B002D013E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5046481416027A1A002D013E /* Project object */;
+}
