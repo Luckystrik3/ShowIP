@@ -9,10 +9,14 @@
 #import "AppDelegate.h"
 
 @implementation AppDelegate
+@synthesize IPLabel;
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification
 {
-    // Insert code here to initialize your application
+    NSLog(@"Application is launched");
+    NSString *currentIP = [[NSHost currentHost] address];
+    NSLog(@"Test:%@", currentIP);
+    [IPLabel setStringValue:currentIP];
 }
 
 @end

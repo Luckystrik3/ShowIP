@@ -29,6 +29,9 @@
 		5046483316027A1A002D013E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		5046483416027A1A002D013E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		5046483716027A1B002D013E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		5046484A1603920F002D013E /* de */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = de; path = de.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		5046484B1603920F002D013E /* de */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = de; path = de.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5046484C1603920F002D013E /* de */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = de; path = de.lproj/Credits.rtf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -178,6 +181,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				5046482B16027A1A002D013E /* en */,
+				5046484B1603920F002D013E /* de */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -186,6 +190,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				5046483116027A1A002D013E /* en */,
+				5046484C1603920F002D013E /* de */,
 			);
 			name = Credits.rtf;
 			sourceTree = "<group>";
@@ -194,6 +199,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				5046483716027A1B002D013E /* en */,
+				5046484A1603920F002D013E /* de */,
 			);
 			name = MainMenu.xib;
 			sourceTree = "<group>";
